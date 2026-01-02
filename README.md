@@ -52,3 +52,77 @@ The MoBe dataset presents several real-world challenges:
 ## Repository Contents
 ### Current Available Subset
 This repository contains a representative subset for evaluation and benchmarking:
+
+📁 samples/
+├── 📁 viewpoint1/
+│ ├── 📁 clip1/ # Sample from Camera 1
+│ │ ├── 📁 images/ # .jpg frames
+│ │ └── 📁 labels/ # YOLO format .txt annotations
+│ └── 📁 clip2/
+│ ├── 📁 images/
+│ └── 📁 labels/
+└── 📁 viewpoint2/
+├── 📁 clip1/ # Sample from Camera 2
+│ ├── 📁 images/
+│ └── 📁 labels/
+└── 📁 clip2/
+├── 📁 images/
+└── 📁 labels/
+
+📁 videos/
+├── v1.mp4 # Viewpoint 1 - Sample Clip 1
+├── v2.mp4 # Viewpoint 1 - Sample Clip 2
+├── v12.mp4 # Viewpoint 2 - Sample Clip 1
+└── v13.mp4 # Viewpoint 2 - Sample Clip 2
+
+
+### Annotation Format
+- **Format**: YOLO format (normalized coordinates)
+- **Each line**: `class_id center_x center_y width height`
+- **Class**: Only one class (0: motorcycle)
+- **Coordinate normalization**: Values range [0, 1]
+
+## Full Dataset Availability
+**The complete MoBe dataset (all 19 video clips, 49,775 frames, 303,389 annotations) will be released upon publication of the associated research article in Image and Vision Computing.**
+
+The full dataset will include:
+- All 19 original video clips
+- All extracted frames with annotations
+- Detailed split information (train/val/test)
+- Additional metadata and documentation
+
+**Planned hosting**: The complete dataset will be available on [Mendeley Data/Zenodo with persistent DOI - TBD].
+
+## Citation
+If you use this dataset in your research, please cite:
+
+[Citation will be added upon publication]
+Currently under review: "MoBe: A Dual-Camera Urban Dataset and Evaluation Framework for Challenging Motorcycle Detection"
+
+
+## Usage Policy
+This dataset is released for **non-commercial research purposes only**.
+
+### License
+This dataset subset is released under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
+**You are free to:**
+- Share: Copy and redistribute the material
+- Adapt: Remix, transform, and build upon the material
+
+**Under the following terms:**
+- Attribution: You must give appropriate credit
+- NonCommercial: You may not use the material for commercial purposes
+
+For the full license text: https://creativecommons.org/licenses/by-nc/4.0/
+
+## Contact
+For research collaboration, full dataset access requests, or questions:
+- **Corresponding Author**: Maryam Sadat Hajkabari
+- **Email**: m.hajakbari@iau.ac.ir;
+- **Affiliation**: Department of Computer Engineering, Qo.C., Islamic Azad University, Qom, Iran.
+
+## Acknowledgments
+We thank the Crisis Management Headquarters of Qom Municipality for providing access to surveillance footage.
+
+
