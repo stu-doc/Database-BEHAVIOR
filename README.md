@@ -18,18 +18,11 @@ Data was captured from two distinct surveillance cameras at the intersection:
 - 35,209 frames
 - 756 unique motorcycle instances
 
-![Image](https://github.com/user-attachments/assets/a3eb517c-c1a5-4b83-a926-a25b8546eeab)
-
-
 **Viewpoint 2** (Camera 2):
 - Resolution: 1080 × 1920 pixels  
 - 7 video clips (V13-V19)
 - 14,566 frames
 - 454 unique motorcycle instances
-
-![Image](https://github.com/user-attachments/assets/197936f6-f8f0-47d8-82ed-f64389b29294)
-
-
 
 ## Dataset Statistics
 | Parameter | Camera 1 | Camera 2 | Total |
